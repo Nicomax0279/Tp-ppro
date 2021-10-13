@@ -1,3 +1,9 @@
+body{
+
+
+
+}
+
 #titulo{
 background-color: aqua;
 height: 50%;
@@ -58,7 +64,7 @@ text{
 #cerrar{
     position: relative;
     left: 70%;
-    top: -42vh;
+    top: -30vh;
     
     
     
