@@ -1,8 +1,57 @@
 body{
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 
 
 }
+#head{
+    background-position: center center;
+    background-size: center;
+    
+    }
+#imagenes{
+width:60vh;
+height:30vh;
+
+
+
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    
+
+    text-decoration: none;
+    color: initial;
+}
+#atras{
+
+
+
+}
+#nuestras-delicias{
+display:flex;
+flex-direction: row;
+justify-content:  space-between
+;
+align-items: stretch;
+padding: 4vh;
+padding-left: 20vh;
+padding-right: 20vw;
+
+
+
+
+}
+
+
+
+
 
 #titulo{
 background-color: aqua;
@@ -17,23 +66,32 @@ justify-content:center;
 align-items:center;
 
 }
+
+footer {
+display: block;
+}
+
+
+
+
+
 #facebooklogo{
 width:5%; 
 height: 5%;
 position: relative;
-left: 45%;
+left: 40%;
 top: -7vh;
 
 
 }
 #colum1{
     
-    background-color: rgb(240, 225, 16);
-    height: 48%;
+    
+    height:50%;
     width: 13%;
     position: absolute;
     padding: 10px;
-    top: 40%;
+    top: 35%;
     display: flex;
     flex-direction:column;
     justify-content: flex-start;
@@ -48,7 +106,7 @@ top: -7vh;
     width: 13%;
     position: absolute;
     left: 87%; 
-    top:-30vh;
+    top:-29vh;
     padding: 10px;
      
 }

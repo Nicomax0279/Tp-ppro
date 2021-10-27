@@ -11,12 +11,9 @@ function cerrar(){
 
 
 }
-function bizcochitos(){
+function atras(){
+
     
-    var p = document.getElementById("muestra");
-    p.hidden=false;
-    var c = document.getElementById("cerrar");
-    c.hidden=false;
 
 
 }
